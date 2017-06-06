@@ -1,0 +1,34 @@
+{
+  "name": "usgs-map-api",
+  "author": "Clark Jeria <cjeria@cmu.edu>",
+  "description": "USGS MAP API Project CMU-SV",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "load": "sh ./util/create_db.sh"
+  },
+  "private": true,
+  "dependencies": {
+    "body-parser": "1.17.1",
+    "compression": "1.6.2",
+    "cors": "2.8.3",
+    "express": "4.15.2",
+    "mongoose": "4.9.8",
+    "request": "2.81.0"
+  },
+  "devDependencies": {
+    "typings": "2.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@bitbucket.org/usgs-cmu-sv/map-api.git"
+  },
+  "bugs": {
+    "url": "git remote add origin ssh://git@bitbucket.org/usgs-cmu-sv/map-api.git"
+  },
+  "engines": {
+    "node": ">= 7.2",
+    "npm": ">= 4"
+  }
+}
